@@ -1,0 +1,11 @@
+.form-select{
+
+    border: none;
+    background-color: #5a5b70 !important;
+    background-image:  url("../../../../assets/Header/addproduct/down.svg");
+    border-radius: 14px !important;
+    color: rgb(199, 199, 199) !important;
+}
+.form-select:focus{
+    color: rgb(199, 199, 199);
+}

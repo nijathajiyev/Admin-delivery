@@ -1,0 +1,35 @@
+.form-select{
+    border: none;
+    background-color: #5a5b70 !important;
+    background-image:  url("../../assets/Header/addproduct/down.svg");
+    border-radius: 14px !important;
+    color: rgb(199, 199, 199) !important;
+}
+.form-select:focus{
+    color: rgb(199, 199, 199);
+}
+
+.restrnt{
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .restrnt{
+        margin-top: 15px;
+    width: 270px;
+    border-radius: 4px !important;
+}
+
+.ctgry{
+    margin-top: 15px;
+    width: 270px;
+    border-radius: 4px !important;
+}
+
+.ofr{
+    margin-top: 5px;
+    width: 270px;
+    border-radius: 4px !important;
+}
+}

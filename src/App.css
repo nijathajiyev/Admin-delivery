@@ -1,0 +1,135 @@
+body {
+  background-color: #1e1e30 !important;
+}
+
+.restHead, .categoryHead{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .container-fluid{
+    padding-right: 0 !important;
+    padding-left: var(--bs-gutter-x,.5rem);
+    margin-right: 0 !important;
+    overflow-x: hidden;
+    margin-left: 0 !important;
+  }
+
+  .restHead, .categoryHead{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .offers-main{
+    align-items: start !important;
+    flex-direction: column;
+  }
+
+  .offersName{
+    margin-bottom: 7px;
+    font-weight: 500;
+    color: #C7C7C7 !important;
+  }
+
+  .offers-nv{
+    margin-top: 51px;
+  }
+
+  .addOffers{
+    width: 270px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .right-sidebar {
+    width: 100% !important;
+  }
+
+  .mobile-add-btn,
+  .admin-name {
+    display: none;
+  }
+
+  .content.is-open {
+    margin-left: 100%;
+  }
+
+  .sidebar {
+    display: block !important;
+    position: relative;
+    background: rgba(199, 79, 235, 1);
+  }
+  .sidebar-logo {
+    background-color: transparent;
+  }
+  .sidebar-logo img:nth-child(2){
+    margin-left: 5px;
+    margin-top: 2px;
+    
+  }
+  .side-footer {
+    background: #85399C;
+  }
+  .side-footer img{
+    margin-left: 13px;
+  }
+  .side-footer p{
+    margin-left: 45px;
+  }
+  .sidebar.is-open {
+    min-width: calc(100% - 110px);
+    max-width: calc(100% - 110px);
+    margin-left: 0;
+    transition: all 0.5s, height 0s;
+    position: fixed;
+    background-color: rgba(199, 79, 235, 1);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .side-menu a {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FCDDEC;
+    margin-bottom: 19px;
+  }
+
+  .sidebar.is-open > .sidebar-header span {
+    display: unset;
+    margin-top: 2px;
+  }
+
+  .side-footer {
+    margin-top: 50px !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .content.is-open {
+    margin-left: 0 !important;
+  }
+
+  li a.dropdown-toggle::after {
+    display: inline-block;
+    position: relative;
+    left: 68%;
+  }
+
+  .sidebar-btn {
+    display: inline !important;
+  }
+}

@@ -1,0 +1,34 @@
+
+.title{
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00072B;
+ 
+}
+.info{
+    font-family: 'Open Sans',sans-serif !important;
+font-style: normal;
+font-weight: 400 ;
+font-size: 14px;
+line-height: 24px;
+color: #00072B;
+padding: 2px 16px !important;
+
+}
+.table{
+    margin-left: 36px;
+    margin-right: 32px;
+    width: 96% !important;
+    margin-top: 41px;
+}
+
+@media screen and (max-width: 375px) {
+    .table{
+        margin-left: 6px;
+        margin-right: 32px;
+        width: 100% !important;
+    }
+}
